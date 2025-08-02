@@ -57,32 +57,10 @@ This project implements a Deep Convolutional Generative Adversarial Network (DCG
 
 ### Epoch-wise Samples:
 
-| Epoch 0 | Epoch 5 | Epoch 15 |
-|---------|---------|----------|
-| ![Epoch 0](images/epoch0.png) | ![Epoch 5](images/epoch5.png) | ![Epoch 15](images/epoch15.png) |
+| Epoch 0 | Epoch 5 | Epoch 15 | Epoch 50 |
+|---------|---------|----------|----------|
+| ![Epoch 0](https://github.com/user-attachments/assets/c0d17fd7-9753-4bbc-97b1-f0e262611e1c) | ![Epoch 5](https://github.com/user-attachments/assets/0dbd1bcb-5167-42ec-9144-8be5b6f213b5) | ![Epoch 15](https://github.com/user-attachments/assets/dd2d9f25-4afb-4d61-b18c-d88d36269660) | ![Epoch 50](https://github.com/user-attachments/assets/be836f3f-9eaa-447f-aba7-7f756aa968ed) |
 
 ---
-
-##  Key Challenges & Solutions
-
-| Challenge | Solution |
-|----------|-----------|
-| Training Instability | Used SGD with momentum + tuned learning rate |
-| Mode Collapse | Proposed architecture changes and data augmentation |
-| Vanishing Gradients | Avoided BatchNorm in Discriminator |
-| Hyperparameter Sensitivity | Careful tuning of learning rate, batch size |
-
----
-
-##  Future Improvements
-
-- Replace DCGAN with more advanced blocks (e.g., ResNet-based GANs)
-- Introduce **conditional generation** (e.g., generate a specific digit)
-- Add **learning rate scheduling** for dynamic adaptation
-- Augment training data with transformations to increase generalization
-
----
-
-## 📁 Project Structure
 
 
